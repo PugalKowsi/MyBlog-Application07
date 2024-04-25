@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+</head>
+<body>
+<h1>Create New Post</h1>
+<form id="postForm" method="post" action="/create">
+    <label for="postId">ID:</label><br>
+    <input type="text" id="postId" name="postId"><br><br>
+
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title"><br><br>
+
+    <label for="content">Content:</label><br>
+    <textarea id="content" name="content"></textarea><br><br>
+
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
